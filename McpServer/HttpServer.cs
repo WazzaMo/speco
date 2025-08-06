@@ -3,7 +3,11 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using ModelContextProtocol.AspNetCore;
 using ModelContextProtocol.Server;
+using ModelContextProtocol.Protocol;
 using System.ComponentModel;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
 
 // Example HTTP-based MCP Server
 // This can be used as an alternative to the stdio-based server
